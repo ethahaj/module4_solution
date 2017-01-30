@@ -1,0 +1,6 @@
+<h3>List of Menu categories</h3>
+<ul>
+<li ng-repeat="item in $ctrl.items">
+    <a ui-sref="itemDetail({itemId: item.short_name})">{{ item.name }}</a>
+</li>
+</ul>
